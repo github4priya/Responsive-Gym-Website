@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gym website</title>
+    <style>
+        body {
+            background-color: rgb(10, 56, 10);
+        }
+
+        .navbar {
+            position: fixed;
+            background-color:rgb(61, 28, 28);
+           
+            padding: 2px 2px;
+            margin: 3px 3px;
+            border-radius: 5px;
+            width: 100%;
+        }
+
+        .navbar ul {
+            overflow: auto;
+        }
+
+        .navbar li {
+            float: left;
+            list-style: none;
+        }
+
+        .navbar li a {
+            text-decoration: none;
+            color: white;
+            padding: 23px 30px;
+        }
+
+        .navbar input {
+            margin-right: 30px;
+            float: right;
+        }
+
+        .im{
+            width: 100%;
+            height: 800px;
+        }
+        #h1,h2,h3{
+            color: seashell;
+        }
+        .item{
+            color: white;
+            border: 3px solid black;
+            border-radius: 3px;
+            margin:100px;
+            padding: 12px 12px;
+            background-color:  rgb(59, 9, 9);
+            width: 218px;
+            float: left;
+            box-shadow: -10px -13px 10px green; 
+        }
+        
+    </style>
+</head>
+
+<body>
+    <nav class="navbar">
+        <ul>
+            <li><a href="">Home</a></li>
+            <li><a href="">About</a></li>
+            <li><a href="">Services</a></li>
+            <li><a href="">Blog</a></li>
+            <li><a href="">Contact</a></li>
+            <input type="text" name="search" placeholder="search">
+        </ul>
+    </nav>
+    <img class="im"
+        src="https://media.istockphoto.com/photos/happy-athletic-people-jogging-on-treadmills-in-a-health-club-picture-id1089939832">
+    <footer>
+        <div class="container">
+            <div class="item">
+                <h3 id="h1">Fitness</h3>
+                <p>
+                    "Fitness" is a broad term that means something different to each person, but it refers to your own
+                    optimal health and overall well-being. Being fit not only means physical health, but emotional and
+                    mental health, too. It defines every aspect of your health. Smart eating and active living are
+                    fundamental to fitness.
+
+                    According to the Academy of Nutrition and Dietetics' Complete Food and Nutrition Guide (3rd ed.),
+                    when
+                    you are fit, you have:
+                    Energy to do what's important to you and to be more productive
+                    Stamina and a positive outlook to handle the mental challenges and emotional ups and downs of
+                    everyday
+                    life and to deal with stress
+                    Reduced risk for many health problems, such as heart disease, cancer, diabetes and osteoporosis
+                    The chance to look and feel your best
+                    Physical strength and endurance to accomplish physical challenges
+                    A better chance for a higher quality of life and perhaps a longer life, too
+                </p>
+            </div>
+            <div class="item">
+                <h3 id="h2">Balance Diet</h3>
+                <p>
+                    To be able to function properly, our body needs all the nutrients that come from foods, that is
+                    proteins, carbohydrates (sugar) and fats, plus vitamins and minerals. To help maintain a healthy
+                    weight
+                    and have the best chance to stay in good health, balance is key.
+                </p>
+            </div>
+            <div class="item">
+                <h3 id="h3">Physical Strength</h3>
+                <p>
+                    An individual's physical strength is determined by two factors; the cross-sectional area of muscle
+                    fibers recruited to generate force and the intensity of the recruitment. Individuals with a high
+                    proportion of type I slow twitch muscle fibers will be relatively weaker than a similar individual
+                    with
+                    a high proportion of type II fast twitch fibers, but would have a greater inherent capacity for
+                    physical
+                    endurance. The genetic inheritance of muscle fiber type sets the outermost boundaries of physical
+                    strength possible (barring the use of enhancing agents such as testosterone), though the unique
+                    position
+                    within this envelope is determined by training. Individual muscle fiber ratios can be determined
+                    through
+                    a muscle biopsy. Other considerations are the ability to recruit muscle fibers for a particular
+                    activity, joint angles, and the length of each limb. For a given cross-section, shorter limbs are
+                    able
+                    to lift more weight. The ability to gain muscle also varies person to person, based mainly upon
+                    genes
+                    dictating the amounts of hormones secreted, but also on sex, age, health of the person, and adequate
+                    nutrients in the diet. A one-repetition maximum test is the most accurate way to determine maximum
+                    muscular strength.
+                </p>
+            </div>
+        </div>
+    
+    </footer>
+
+
+    
+
+</body>
+
+</html>
